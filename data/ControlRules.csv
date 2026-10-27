@@ -1,0 +1,8 @@
+﻿RuleID,ExceptionType,RuleDefinition
+R1,Possible duplicate activity,"Same CustomerRef and Amount on the same calendar date; review manually, do not automatically label fraud."
+R2,Missing approval reference,ApprovalID is blank in Transactions.
+R3,Approval record missing,Transactions has an ApprovalID but no matching record exists in Approvals.
+R4,Approval not approved,Matching Approvals record has ApprovalStatus other than Approved.
+R5,Successful transaction not settled,TransactionStatus is Success but no SettlementLedger row matches TransactionID.
+R6,Settlement amount mismatch,Transaction Amount differs from SettledAmount for matching TransactionID.
+R7,Orphan settlement,SettlementLedger TransactionID does not exist in Transactions.

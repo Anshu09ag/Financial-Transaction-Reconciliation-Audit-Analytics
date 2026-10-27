@@ -1,0 +1,11 @@
+﻿TableName,FieldName,Definition
+Transactions,TransactionID,Unique identifier assigned to a transaction record; duplicate business activity can still exist under different IDs.
+Transactions,TransactionDate,Date and time the transaction was initiated.
+Transactions,Amount,Original transaction amount in INR.
+Transactions,TransactionStatus,"Success, Failed, or Pending status recorded by the payment system."
+Transactions,ApprovalID,Approval reference recorded at transaction level; blank means no approval reference was captured.
+SettlementLedger,TransactionID,Transaction reference recorded in the settlement ledger.
+SettlementLedger,SettledAmount,Amount recorded as settled in the ledger.
+Approvals,ApprovalID,Approval reference recorded in the approval log.
+Approvals,ApprovalStatus,"Approved, Rejected, or Pending."
+All,Synthetic data,All records are fictional and created for practice; no real customer or bank data is included.
