@@ -55,4 +55,4 @@ All data used in this portfolio project is synthetic and is intended for demonst
 
 ## Project Status
 
-The Excel analysis and SQL validation files are prepared. The Power BI report is still in progress and may be updated as the dashboard is refined.
+The Excel analysis, SQL validation, and Power BI report are completed. The report includes an Executive Overview and a Reconciliation Analysis page, with interactive filtering, transaction KPIs, and rule-based exception details.
